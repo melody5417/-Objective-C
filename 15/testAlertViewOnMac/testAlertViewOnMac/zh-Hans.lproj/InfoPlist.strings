@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName =  "警告框示例";
+CFBundleDisplayName =  "警告框示例";

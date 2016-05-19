@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="12C3012" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Club" representedClassName="Club" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="captain" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Player" inverseName="captainInfo" inverseEntity="Player" syncable="YES"/>
+        <relationship name="coach" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Coach" inverseName="teamInfo" inverseEntity="Coach" syncable="YES"/>
+        <relationship name="players" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Player" inverseName="playerInfo" inverseEntity="Player" syncable="YES"/>
+    </entity>
+    <entity name="Coach" representedClassName="Coach" parentEntity="Staff" syncable="YES">
+        <relationship name="teamInfo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Club" inverseName="coach" inverseEntity="Club" syncable="YES"/>
+    </entity>
+    <entity name="Player" representedClassName="Player" parentEntity="Staff" syncable="YES">
+        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="captainInfo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Club" inverseName="captain" inverseEntity="Club" syncable="YES"/>
+        <relationship name="playerInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Club" inverseName="players" inverseEntity="Club" syncable="YES"/>
+    </entity>
+    <entity name="Staff" representedClassName="Staff" isAbstract="YES" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Transformable" valueTransformerName="QCUIImageToDataTransformer" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="role" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Club" positionX="-2288" positionY="-769" width="128" height="103"/>
+        <element name="Coach" positionX="-2081" positionY="-549" width="128" height="58"/>
+        <element name="Player" positionX="-2108" positionY="-900" width="128" height="88"/>
+        <element name="Staff" positionX="-2016" positionY="-738" width="128" height="88"/>
+    </elements>
+</model>

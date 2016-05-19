@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96290FE716AB047A004FED4B /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 96290FDD16AB047A004FED4B /* background.png */; };
+		96290FE816AB047A004FED4B /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96290FDE16AB047A004FED4B /* background@2x.png */; };
+		96290FE916AB047A004FED4B /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 96290FDF16AB047A004FED4B /* Icon-144.png */; };
+		96290FEA16AB047A004FED4B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 96290FE016AB047A004FED4B /* Icon-72.png */; };
+		96290FEB16AB047A004FED4B /* Icon-Small-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 96290FE116AB047A004FED4B /* Icon-Small-ipad.png */; };
+		96290FEC16AB047A004FED4B /* Icon-Small-ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96290FE216AB047A004FED4B /* Icon-Small-ipad@2x.png */; };
+		96290FED16AB047A004FED4B /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 96290FE316AB047A004FED4B /* Icon-Small.png */; };
+		96290FEE16AB047A004FED4B /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96290FE416AB047A004FED4B /* Icon-Small@2x.png */; };
+		96290FEF16AB047A004FED4B /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 96290FE516AB047A004FED4B /* iTunesArtwork */; };
+		96290FF016AB047A004FED4B /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 96290FE616AB047A004FED4B /* iTunesArtwork@2x */; };
+		96290FF216AB04B2004FED4B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 96290FF116AB04B2004FED4B /* Icon.png */; };
+		96290FF416AB04B7004FED4B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96290FF316AB04B7004FED4B /* Icon@2x.png */; };
+		96290FF616AB04BC004FED4B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 96290FF516AB04BC004FED4B /* Default.png */; };
+		96290FF816AB04C0004FED4B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96290FF716AB04C0004FED4B /* Default@2x.png */; };
+		96290FFA16AB04C8004FED4B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96290FF916AB04C8004FED4B /* Default-568h@2x.png */; };
+		9629100316AB0A3B004FED4B /* QCNavControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9629100216AB0A39004FED4B /* QCNavControllerViewController.m */; };
+		968EE2271658574D002B91FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968EE2261658574D002B91FA /* UIKit.framework */; };
+		968EE2291658574D002B91FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968EE2281658574D002B91FA /* Foundation.framework */; };
+		968EE22B1658574D002B91FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968EE22A1658574D002B91FA /* CoreGraphics.framework */; };
+		968EE2311658574D002B91FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 968EE22F1658574D002B91FA /* InfoPlist.strings */; };
+		968EE2331658574D002B91FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EE2321658574D002B91FA /* main.m */; };
+		968EE2371658574D002B91FA /* QCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EE2361658574D002B91FA /* QCAppDelegate.m */; };
+		968EE2531658589F002B91FA /* QCTestNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EE2521658589F002B91FA /* QCTestNavigationBar.m */; };
+		968EE25716585A3D002B91FA /* QCNavRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EE25516585A3D002B91FA /* QCNavRootViewController.m */; };
+		968EE25816585A3D002B91FA /* QCNavRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968EE25616585A3D002B91FA /* QCNavRootViewController.xib */; };
+		968EE25C16585C87002B91FA /* QCNavFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EE25A16585C87002B91FA /* QCNavFirstViewController.m */; };
+		968EE25D16585C87002B91FA /* QCNavFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968EE25B16585C87002B91FA /* QCNavFirstViewController.xib */; };
+		968EE2611658BE26002B91FA /* QCNavMultiControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EE25F1658BE26002B91FA /* QCNavMultiControlsViewController.m */; };
+		968EE2621658BE26002B91FA /* QCNavMultiControlsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968EE2601658BE26002B91FA /* QCNavMultiControlsViewController.xib */; };
+		968EE2661658C446002B91FA /* QCNavToolBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EE2641658C446002B91FA /* QCNavToolBarViewController.m */; };
+		968EE2671658C446002B91FA /* QCNavToolBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968EE2651658C446002B91FA /* QCNavToolBarViewController.xib */; };
+		968EE26C1658CC98002B91FA /* QCNavResizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EE26A1658CC98002B91FA /* QCNavResizeViewController.m */; };
+		968EE26D1658CC98002B91FA /* QCNavResizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968EE26B1658CC98002B91FA /* QCNavResizeViewController.xib */; };
+		968EE2731658CE55002B91FA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968EE2721658CE55002B91FA /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96290FDD16AB047A004FED4B /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		96290FDE16AB047A004FED4B /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		96290FDF16AB047A004FED4B /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-144.png"; sourceTree = "<group>"; };
+		96290FE016AB047A004FED4B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		96290FE116AB047A004FED4B /* Icon-Small-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-ipad.png"; sourceTree = "<group>"; };
+		96290FE216AB047A004FED4B /* Icon-Small-ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-ipad@2x.png"; sourceTree = "<group>"; };
+		96290FE316AB047A004FED4B /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		96290FE416AB047A004FED4B /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		96290FE516AB047A004FED4B /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		96290FE616AB047A004FED4B /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		96290FF116AB04B2004FED4B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		96290FF316AB04B7004FED4B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		96290FF516AB04BC004FED4B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		96290FF716AB04C0004FED4B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		96290FF916AB04C8004FED4B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		96290FFB16AB04D5004FED4B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		9629100116AB0A39004FED4B /* QCNavControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCNavControllerViewController.h; sourceTree = "<group>"; };
+		9629100216AB0A39004FED4B /* QCNavControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCNavControllerViewController.m; sourceTree = "<group>"; };
+		968EE2221658574D002B91FA /* testNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		968EE2261658574D002B91FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		968EE2281658574D002B91FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		968EE22A1658574D002B91FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		968EE22E1658574D002B91FA /* testNavigationController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testNavigationController-Info.plist"; sourceTree = "<group>"; };
+		968EE2301658574D002B91FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		968EE2321658574D002B91FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		968EE2341658574D002B91FA /* testNavigationController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testNavigationController-Prefix.pch"; sourceTree = "<group>"; };
+		968EE2351658574D002B91FA /* QCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCAppDelegate.h; sourceTree = "<group>"; };
+		968EE2361658574D002B91FA /* QCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCAppDelegate.m; sourceTree = "<group>"; };
+		968EE2511658589F002B91FA /* QCTestNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCTestNavigationBar.h; sourceTree = "<group>"; };
+		968EE2521658589F002B91FA /* QCTestNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCTestNavigationBar.m; sourceTree = "<group>"; };
+		968EE25416585A3D002B91FA /* QCNavRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCNavRootViewController.h; sourceTree = "<group>"; };
+		968EE25516585A3D002B91FA /* QCNavRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCNavRootViewController.m; sourceTree = "<group>"; };
+		968EE25616585A3D002B91FA /* QCNavRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCNavRootViewController.xib; sourceTree = "<group>"; };
+		968EE25916585C87002B91FA /* QCNavFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCNavFirstViewController.h; sourceTree = "<group>"; };
+		968EE25A16585C87002B91FA /* QCNavFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCNavFirstViewController.m; sourceTree = "<group>"; };
+		968EE25B16585C87002B91FA /* QCNavFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCNavFirstViewController.xib; sourceTree = "<group>"; };
+		968EE25E1658BE26002B91FA /* QCNavMultiControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCNavMultiControlsViewController.h; sourceTree = "<group>"; };
+		968EE25F1658BE26002B91FA /* QCNavMultiControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCNavMultiControlsViewController.m; sourceTree = "<group>"; };
+		968EE2601658BE26002B91FA /* QCNavMultiControlsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCNavMultiControlsViewController.xib; sourceTree = "<group>"; };
+		968EE2631658C446002B91FA /* QCNavToolBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCNavToolBarViewController.h; sourceTree = "<group>"; };
+		968EE2641658C446002B91FA /* QCNavToolBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCNavToolBarViewController.m; sourceTree = "<group>"; };
+		968EE2651658C446002B91FA /* QCNavToolBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCNavToolBarViewController.xib; sourceTree = "<group>"; };
+		968EE2691658CC98002B91FA /* QCNavResizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCNavResizeViewController.h; sourceTree = "<group>"; };
+		968EE26A1658CC98002B91FA /* QCNavResizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCNavResizeViewController.m; sourceTree = "<group>"; };
+		968EE26B1658CC98002B91FA /* QCNavResizeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCNavResizeViewController.xib; sourceTree = "<group>"; };
+		968EE2721658CE55002B91FA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		968EE21F1658574D002B91FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968EE2731658CE55002B91FA /* QuartzCore.framework in Frameworks */,
+				968EE2271658574D002B91FA /* UIKit.framework in Frameworks */,
+				968EE2291658574D002B91FA /* Foundation.framework in Frameworks */,
+				968EE22B1658574D002B91FA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96290FDC16AB047A004FED4B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				96290FDD16AB047A004FED4B /* background.png */,
+				96290FDE16AB047A004FED4B /* background@2x.png */,
+				96290FDF16AB047A004FED4B /* Icon-144.png */,
+				96290FE016AB047A004FED4B /* Icon-72.png */,
+				96290FE116AB047A004FED4B /* Icon-Small-ipad.png */,
+				96290FE216AB047A004FED4B /* Icon-Small-ipad@2x.png */,
+				96290FE316AB047A004FED4B /* Icon-Small.png */,
+				96290FE416AB047A004FED4B /* Icon-Small@2x.png */,
+				96290FE516AB047A004FED4B /* iTunesArtwork */,
+				96290FE616AB047A004FED4B /* iTunesArtwork@2x */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9629100416AB0A78004FED4B /* MultiControls */ = {
+			isa = PBXGroup;
+			children = (
+				968EE25E1658BE26002B91FA /* QCNavMultiControlsViewController.h */,
+				968EE25F1658BE26002B91FA /* QCNavMultiControlsViewController.m */,
+				968EE2601658BE26002B91FA /* QCNavMultiControlsViewController.xib */,
+			);
+			name = MultiControls;
+			sourceTree = "<group>";
+		};
+		9629100516AB0A86004FED4B /* ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				968EE2631658C446002B91FA /* QCNavToolBarViewController.h */,
+				968EE2641658C446002B91FA /* QCNavToolBarViewController.m */,
+				968EE2651658C446002B91FA /* QCNavToolBarViewController.xib */,
+			);
+			name = ToolBar;
+			sourceTree = "<group>";
+		};
+		9629100616AB0AA3004FED4B /* Resize */ = {
+			isa = PBXGroup;
+			children = (
+				968EE2691658CC98002B91FA /* QCNavResizeViewController.h */,
+				968EE26A1658CC98002B91FA /* QCNavResizeViewController.m */,
+				968EE26B1658CC98002B91FA /* QCNavResizeViewController.xib */,
+			);
+			name = Resize;
+			sourceTree = "<group>";
+		};
+		968EE2171658574D002B91FA = {
+			isa = PBXGroup;
+			children = (
+				968EE22C1658574D002B91FA /* testNavigationController */,
+				968EE2251658574D002B91FA /* Frameworks */,
+				968EE2231658574D002B91FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		968EE2231658574D002B91FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				968EE2221658574D002B91FA /* testNavigationController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		968EE2251658574D002B91FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				968EE2721658CE55002B91FA /* QuartzCore.framework */,
+				968EE2261658574D002B91FA /* UIKit.framework */,
+				968EE2281658574D002B91FA /* Foundation.framework */,
+				968EE22A1658574D002B91FA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		968EE22C1658574D002B91FA /* testNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				968EE2351658574D002B91FA /* QCAppDelegate.h */,
+				968EE2361658574D002B91FA /* QCAppDelegate.m */,
+				968EE2681658CC70002B91FA /* Nav */,
+				968EE22D1658574D002B91FA /* Supporting Files */,
+			);
+			path = testNavigationController;
+			sourceTree = "<group>";
+		};
+		968EE22D1658574D002B91FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96290FF916AB04C8004FED4B /* Default-568h@2x.png */,
+				96290FF716AB04C0004FED4B /* Default@2x.png */,
+				96290FF516AB04BC004FED4B /* Default.png */,
+				96290FF316AB04B7004FED4B /* Icon@2x.png */,
+				96290FF116AB04B2004FED4B /* Icon.png */,
+				96290FDC16AB047A004FED4B /* Resources */,
+				968EE22E1658574D002B91FA /* testNavigationController-Info.plist */,
+				968EE22F1658574D002B91FA /* InfoPlist.strings */,
+				968EE2321658574D002B91FA /* main.m */,
+				968EE2341658574D002B91FA /* testNavigationController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		968EE2681658CC70002B91FA /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				9629100116AB0A39004FED4B /* QCNavControllerViewController.h */,
+				9629100216AB0A39004FED4B /* QCNavControllerViewController.m */,
+				968EE25416585A3D002B91FA /* QCNavRootViewController.h */,
+				968EE25516585A3D002B91FA /* QCNavRootViewController.m */,
+				968EE25616585A3D002B91FA /* QCNavRootViewController.xib */,
+				968EE25916585C87002B91FA /* QCNavFirstViewController.h */,
+				968EE25A16585C87002B91FA /* QCNavFirstViewController.m */,
+				968EE25B16585C87002B91FA /* QCNavFirstViewController.xib */,
+				96E8D7F116AB0B18006490FB /* CustomizeBar */,
+				9629100416AB0A78004FED4B /* MultiControls */,
+				9629100516AB0A86004FED4B /* ToolBar */,
+				9629100616AB0AA3004FED4B /* Resize */,
+			);
+			name = Nav;
+			sourceTree = "<group>";
+		};
+		96E8D7F116AB0B18006490FB /* CustomizeBar */ = {
+			isa = PBXGroup;
+			children = (
+				968EE2511658589F002B91FA /* QCTestNavigationBar.h */,
+				968EE2521658589F002B91FA /* QCTestNavigationBar.m */,
+			);
+			name = CustomizeBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		968EE2211658574D002B91FA /* testNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 968EE2461658574D002B91FA /* Build configuration list for PBXNativeTarget "testNavigationController" */;
+			buildPhases = (
+				968EE21E1658574D002B91FA /* Sources */,
+				968EE21F1658574D002B91FA /* Frameworks */,
+				968EE2201658574D002B91FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testNavigationController;
+			productName = testNavigationController;
+			productReference = 968EE2221658574D002B91FA /* testNavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		968EE2191658574D002B91FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Jason;
+			};
+			buildConfigurationList = 968EE21C1658574D002B91FA /* Build configuration list for PBXProject "testNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 968EE2171658574D002B91FA;
+			productRefGroup = 968EE2231658574D002B91FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				968EE2211658574D002B91FA /* testNavigationController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		968EE2201658574D002B91FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968EE2311658574D002B91FA /* InfoPlist.strings in Resources */,
+				968EE25816585A3D002B91FA /* QCNavRootViewController.xib in Resources */,
+				968EE25D16585C87002B91FA /* QCNavFirstViewController.xib in Resources */,
+				968EE2621658BE26002B91FA /* QCNavMultiControlsViewController.xib in Resources */,
+				968EE2671658C446002B91FA /* QCNavToolBarViewController.xib in Resources */,
+				968EE26D1658CC98002B91FA /* QCNavResizeViewController.xib in Resources */,
+				96290FE716AB047A004FED4B /* background.png in Resources */,
+				96290FE816AB047A004FED4B /* background@2x.png in Resources */,
+				96290FE916AB047A004FED4B /* Icon-144.png in Resources */,
+				96290FEA16AB047A004FED4B /* Icon-72.png in Resources */,
+				96290FEB16AB047A004FED4B /* Icon-Small-ipad.png in Resources */,
+				96290FEC16AB047A004FED4B /* Icon-Small-ipad@2x.png in Resources */,
+				96290FED16AB047A004FED4B /* Icon-Small.png in Resources */,
+				96290FEE16AB047A004FED4B /* Icon-Small@2x.png in Resources */,
+				96290FEF16AB047A004FED4B /* iTunesArtwork in Resources */,
+				96290FF016AB047A004FED4B /* iTunesArtwork@2x in Resources */,
+				96290FF216AB04B2004FED4B /* Icon.png in Resources */,
+				96290FF416AB04B7004FED4B /* Icon@2x.png in Resources */,
+				96290FF616AB04BC004FED4B /* Default.png in Resources */,
+				96290FF816AB04C0004FED4B /* Default@2x.png in Resources */,
+				96290FFA16AB04C8004FED4B /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		968EE21E1658574D002B91FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968EE2331658574D002B91FA /* main.m in Sources */,
+				968EE2371658574D002B91FA /* QCAppDelegate.m in Sources */,
+				968EE2531658589F002B91FA /* QCTestNavigationBar.m in Sources */,
+				968EE25716585A3D002B91FA /* QCNavRootViewController.m in Sources */,
+				968EE25C16585C87002B91FA /* QCNavFirstViewController.m in Sources */,
+				968EE2611658BE26002B91FA /* QCNavMultiControlsViewController.m in Sources */,
+				968EE2661658C446002B91FA /* QCNavToolBarViewController.m in Sources */,
+				968EE26C1658CC98002B91FA /* QCNavResizeViewController.m in Sources */,
+				9629100316AB0A3B004FED4B /* QCNavControllerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		968EE22F1658574D002B91FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				968EE2301658574D002B91FA /* en */,
+				96290FFB16AB04D5004FED4B /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		968EE2441658574D002B91FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		968EE2451658574D002B91FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		968EE2471658574D002B91FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testNavigationController/testNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "testNavigationController/testNavigationController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		968EE2481658574D002B91FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testNavigationController/testNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "testNavigationController/testNavigationController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		968EE21C1658574D002B91FA /* Build configuration list for PBXProject "testNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968EE2441658574D002B91FA /* Debug */,
+				968EE2451658574D002B91FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		968EE2461658574D002B91FA /* Build configuration list for PBXNativeTarget "testNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968EE2471658574D002B91FA /* Debug */,
+				968EE2481658574D002B91FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 968EE2191658574D002B91FA /* Project object */;
+}

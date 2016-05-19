@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>number</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>José Mourinho</string>
+		<key>role</key>
+		<string>Coach</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>1</integer>
+		<key>name</key>
+		<string>Iker Casillas</string>
+		<key>role</key>
+		<string>GoalKeeper</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>13</integer>
+		<key>name</key>
+		<string>Antonio Adán</string>
+		<key>role</key>
+		<string>GoalKeeper</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>25</integer>
+		<key>name</key>
+		<string>Jesús Fernández</string>
+		<key>role</key>
+		<string>GoalKeeper</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>31</integer>
+		<key>name</key>
+		<string>Fernando Pacheco</string>
+		<key>role</key>
+		<string>GoalKeeper</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>Raphaël Varane</string>
+		<key>role</key>
+		<string>Defender</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>3</integer>
+		<key>name</key>
+		<string>Pepe</string>
+		<key>role</key>
+		<string>Defender</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>4</integer>
+		<key>name</key>
+		<string>Sergio Ramos</string>
+		<key>role</key>
+		<string>Defender</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>5</integer>
+		<key>name</key>
+		<string>Fábio Coentrao</string>
+		<key>role</key>
+		<string>Defender</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>11</integer>
+		<key>name</key>
+		<string>Ricardo Carvalho</string>
+		<key>role</key>
+		<string>Defender</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>12</integer>
+		<key>name</key>
+		<string>Marcelo</string>
+		<key>role</key>
+		<string>Defender</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>17</integer>
+		<key>name</key>
+		<string>Álvaro Arbeloa</string>
+		<key>role</key>
+		<string>Defender</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>18</integer>
+		<key>name</key>
+		<string>Raúl Albiol</string>
+		<key>role</key>
+		<string>Defender</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>24</integer>
+		<key>name</key>
+		<string>Nacho</string>
+		<key>role</key>
+		<string>Defender</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>6</integer>
+		<key>name</key>
+		<string>Sami Khedira</string>
+		<key>role</key>
+		<string>Midfielder</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>8</integer>
+		<key>name</key>
+		<string>Kaká</string>
+		<key>role</key>
+		<string>Midfielder</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>10</integer>
+		<key>name</key>
+		<string>Mesut Özil</string>
+		<key>role</key>
+		<string>Midfielder</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>14</integer>
+		<key>name</key>
+		<string>Xabi Alonso</string>
+		<key>role</key>
+		<string>Midfielder</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>15</integer>
+		<key>name</key>
+		<string>Michael Essien</string>
+		<key>role</key>
+		<string>Midfielder</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>19</integer>
+		<key>name</key>
+		<string>Luka Modric</string>
+		<key>role</key>
+		<string>Midfielder</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>22</integer>
+		<key>name</key>
+		<string>Angel Di María</string>
+		<key>role</key>
+		<string>Midfielder</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>16</integer>
+		<key>name</key>
+		<string>Juanfran</string>
+		<key>role</key>
+		<string>Midfielder</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>30</integer>
+		<key>name</key>
+		<string>Álex</string>
+		<key>role</key>
+		<string>Midfielder</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>32</integer>
+		<key>name</key>
+		<string>Lucas</string>
+		<key>role</key>
+		<string>Midfielder</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>7</integer>
+		<key>name</key>
+		<string>Cristiano Ronaldo</string>
+		<key>role</key>
+		<string>Striker</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>9</integer>
+		<key>name</key>
+		<string>Karim Benzema</string>
+		<key>role</key>
+		<string>Striker</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>20</integer>
+		<key>name</key>
+		<string>Gonzalo Higuaín</string>
+		<key>role</key>
+		<string>Striker</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>21</integer>
+		<key>name</key>
+		<string>José Callejón</string>
+		<key>role</key>
+		<string>Striker</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>29</integer>
+		<key>name</key>
+		<string>Morata</string>
+		<key>role</key>
+		<string>Striker</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>23</integer>
+		<key>name</key>
+		<string>Denis Tcherychev</string>
+		<key>role</key>
+		<string>Striker</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>28</integer>
+		<key>name</key>
+		<string>Jesé Rodríguez</string>
+		<key>role</key>
+		<string>Striker</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<integer>26</integer>
+		<key>name</key>
+		<string>Óscar Plano</string>
+		<key>role</key>
+		<string>Striker</string>
+	</dict>
+</array>
+</plist>
